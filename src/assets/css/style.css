@@ -1,0 +1,181 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Lato', 'Shantell Sans', cursive;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* .formLogin > input[type="text"], 
+.formLogin > input[type="password"] {
+    outline: none;
+    padding: 20px;
+    display: block;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    margin: 20px auto;
+}
+    
+input[type="submit"]{
+    padding: 10px;
+    width: 150px;
+    background: #0098cb;
+    border: 0;
+    color: #eee;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 20px auto;
+    margin-top: 0px;
+    border-radius: 3px;
+    border: 0;
+}
+
+input[type="submit"]:hover{
+    background: #00b8eb;
+    transition: .6s;
+} */
+
+header{
+    border-bottom: 2px solid #797474;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color: #be8787;
+}
+
+header a:hover{
+    color: #f30707;
+    transition: .6s;
+}
+
+span.required {
+    color: #AA0000;
+    cursor: help;
+}
+
+.form-label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+
+.form-group  {
+    text-align: left !important;
+}
+
+textarea {
+    resize: none !important;
+}
+
+.tarjeta-menu {
+    border: 1px solid #E9ECEF; 
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px;
+    width: 32.5% !important;
+    cursor: pointer;
+}
+
+.tarjeta-menu:HOVER {
+    border: 1px solid #000000; 
+}
+
+a.nav-link.active {
+    font-weight: bold !important;
+}
+
+.formulario-datos {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-left: 1px solid #dee2e6; 
+    border-bottom: 1px solid #dee2e6; 
+    border-right: 1px solid #dee2e6; 
+    padding: 20px; 
+    border-bottom-left-radius: 6px; 
+    border-bottom-right-radius: 6px;
+}
+
+.formulario-datos-completo {
+    margin-top: 25px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border: 1px solid #dee2e6; 
+    padding: 20px; 
+    border-radius: 6px; 
+}
+
+.form-profile {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+.form-profile .form-floating:focus-within {
+    z-index: 2;
+}
+
+.div-listado {
+    overflow: auto;
+    max-height: 650px;
+}
+
+.tipoUsuario1 {
+    color: red;
+}
+
+.tipoUsuario2 {
+    color: blue;
+}
+
+.tipoUsuario3 {
+    color: goldenrod;
+}
+
+input[readonly] {
+    background-color: #f2f2f2;
+}
+
+td {
+    vertical-align: middle;
+}
+
+.actoPonente {
+    font-weight: bold;
+    color: goldenrod;
+}
+
+.filtroFecha {
+    width: 190px;
+}
+
+.acto-rol1 {
+    background-color: #ffcc80aa;
+}
+
+.acto-rol0 {
+    background-color: #81D4FAaa;
+}
+
+.tdBtnAcciones > button {
+    width: 40px !important;
+    font-size: 13px !important;
+}
